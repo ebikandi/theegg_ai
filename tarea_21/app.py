@@ -13,7 +13,7 @@ def minimum_fraction(num):
     divisor = get_gcd(multiplied, denom)
     min_num = multiplied/divisor
     min_denom = denom/divisor
-    print("Fraccion minima de %f: %d/%d" %(num, min_num, min_denom))
+    print("Fraccion minima de %.4f: %d/%d" %(num, min_num, min_denom))
   else:
     raise Exception()
 
@@ -21,7 +21,7 @@ def minimum_fraction(num):
 # minimum_fraction(0.376)
 while True:
   try:
-    number = float(input("Mete un número entre 0.0001-0.9999: (1 para salir):"))
+    number = float(input("Mete un número entre [0.0001, 0.9999]: (1 para salir)\n"))
     if int(number) == 1:
       break
     else:
