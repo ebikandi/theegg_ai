@@ -3,5 +3,5 @@
   "python.linting.pylintEnabled": false,
   "python.linting.mypyEnabled": true,
   "python.linting.enabled": true,
-  "python.pythonPath": "C:\\Users\\ebikandi\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
+  "python.pythonPath": "/usr/local/bin/python3-32"
 }
