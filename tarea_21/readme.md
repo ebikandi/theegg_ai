@@ -2,8 +2,6 @@
 
 # Calculo de la fraccion irreducible
 
-[Link al diccionario](https://www.notion.so/5f0d36e27bb448149f07eca7ee5c2b49?v=3123ca19b70f451eb6e33877298a446f)
-
 ## Solución
 
 Para esta tarea de ha optado por usar Python para empezar a familiarizarse con el lenguaje. La solución se consigue siguiendo la [**explicación** presentada en el enunciado](http://www.nachocabanes.com/retos/reto.php?n=013). Es decir:
