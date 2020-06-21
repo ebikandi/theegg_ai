@@ -27,7 +27,7 @@ Una vez recogidos los datos, el algoritmo ira comparando de manera recursiva que
 
 ```python
 def calcularProducción(listaVacas, totalCapacidad, i, acumLeche, acumCapacidad):
-  if(total < totalCapacidad):
+  if(acumCapacidad < totalCapacidad):
    nuevaAcumLeche = acumLeche + listaVacas[i].leche
    nuevaAcumCapacidad = acumCapacidad + listaVacas[i].peso
 
@@ -36,7 +36,7 @@ def calcularProducción(listaVacas, totalCapacidad, i, acumLeche, acumCapacidad)
      calcularProducción(listaVacas, totalCapacidad, i+1, acumLeche, acumCapacidad)
    )
   else:
-    return total
+    return nuevaAcumLeche
 }
 ```
 
