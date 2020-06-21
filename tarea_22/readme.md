@@ -36,7 +36,7 @@ def calcularProducción(listaVacas, totalCapacidad, i, acumLeche, acumCapacidad)
      calcularProducción(listaVacas, totalCapacidad, i+1, acumLeche, acumCapacidad)
    )
   else:
-    return nuevaAcumLeche
+    return acumLeche
 }
 ```
 
