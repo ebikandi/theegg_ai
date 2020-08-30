@@ -6,15 +6,10 @@ joker_B = 'B'
 
 
 def __getShuffledCards():
-    return [
-        6, 22, 36, 35, 45, 18, 43, 21, 11, 31, 13, 25, 28, 37, 39, 2, 27, 44,
-        49, 17, 30, 47, 10, 40, 14, 15, 12, 24, 1, 5, 42, 19, 52, 20, 46, 23,
-        26, 'B', 51, 3, 9, 32, 4, 7, 38, 'A', 8, 34, 16, 29, 48, 33, 41, 50
-    ]
-    # cards = list(range(1, 53)) + [joker_A, joker_B]
-    # random.shuffle(cards)
-    # print("shuxffle", cards)
-    # return cards
+    cards = list(range(1, 53)) + [joker_A, joker_B]
+    random.shuffle(cards)
+    print("shuxffle", cards)
+    return cards
 
 
 def __swapA(cards):
